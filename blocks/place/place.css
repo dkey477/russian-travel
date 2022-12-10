@@ -35,10 +35,23 @@
     padding-bottom: 67px;
   }
   .place:nth-child(4) {
-    padding-bottom: 70px;
+    grid-template-columns: 48% 49%;
+    padding-bottom: 63px;
+
   }
 }
 
+@media screen and (max-width: 522px) {
+  .place {
+    grid-template-columns: 100%;
+    row-gap: 31px;
+    padding-bottom: 72px;
+}
+
+.place:nth-child(4) {
+  grid-template-columns: 100%;
+}
+}
 @media screen and (max-width: 320px) {
   .place {
     grid-template-columns: 100%;

@@ -7,11 +7,26 @@
   line-height: 58px;
 }
 
+@media screen and (max-width:672px) {
+  .intro__title {
+    font-size: 32px;
+    line-height: 35px;
+  }
+}
+
+@media screen and (max-width:522px) {
+  .intro__title {
+    font-size: 32px;
+    line-height: 35px;
+    width: 86%;
+  }
+}
+
+
 @media screen and (max-width:320px) {
   .intro__title {
     font-size: 32px;
     line-height: 35px;
     width: 86%;
   }
-
 }

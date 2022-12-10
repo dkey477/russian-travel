@@ -9,10 +9,3 @@ transition: opacity 0.3s ease-in;
   opacity: 0.8;
 }
 
-@media screen and (max-width:320px) {
-  .footer__link {
-    display: flex;
-    justify-content: start;
-    flex-direction: column;
-  }
-}

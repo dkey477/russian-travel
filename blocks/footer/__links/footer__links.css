@@ -12,6 +12,16 @@
   list-style-type: none;
 }
 
+@media screen and (max-width:672px) {
+  .footer__links {
+    flex-direction: column;
+    row-gap: 32px;
+    font-size: 24px;
+    line-height: 24px;
+  }
+}
+
+
 @media screen and (max-width:320px) {
   .footer__links {
     flex-direction: column;

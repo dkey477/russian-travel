@@ -16,6 +16,19 @@
   }
 }
 
+@media screen and (max-width:672px) {
+  .footer {
+    margin-left: 16px;
+    margin-right: 16px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-top: 64px;
+    row-gap: 48px;
+  }
+}
+
+
 @media screen and (max-width:320px) {
   .footer {
     margin-left: 16px;

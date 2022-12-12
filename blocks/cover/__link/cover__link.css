@@ -1,9 +1,9 @@
 .cover__link {
-text-decoration: none;
-display: block;
-min-height: 740px;
-text-decoration-line: none;
-position: relative;
+  text-decoration: none;
+  display: block;
+  min-height: 740px;
+  text-decoration-line: none;
+  position: relative;
 }
 
 .cover__link::before {

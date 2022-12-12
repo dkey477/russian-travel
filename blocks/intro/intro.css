@@ -1,8 +1,8 @@
 .intro {
-max-width: 100%;
-padding-left: 148px;
-padding-top: 97px;
-color: #fff;
+  max-width: 100%;
+  padding-left: 148px;
+  padding-top: 97px;
+  color: #fff;
 }
 
 @media screen and (max-width: 1280px) {
